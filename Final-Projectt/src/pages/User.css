@@ -1,0 +1,63 @@
+.user {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .user .userTitle {
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  .userList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+.card {
+    border-radius: 30px;
+    background-color: #1c272c;
+    color: #fff;
+    margin: 20px;
+    margin-top: 50px;
+    margin-right: 40px;
+  }
+  
+  .card-img-top {
+    border-radius: 30px;
+    padding: 10px;
+    height: 250px;
+    width: 350px;
+    align-items: center;
+  }
+  
+  .card-body {
+    padding: 25px;
+    margin-top: -15px;
+  }
+  
+  .btn-primary {
+    border-radius: 50px;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f94ca4;
+  }
+  
+  .text {
+    width: 100%;
+    top: 45%;
+    position: absolute;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+  }

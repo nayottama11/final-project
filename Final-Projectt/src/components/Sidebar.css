@@ -1,0 +1,10 @@
+.s-idebar,
+.s-idebar * {
+  box-sizing: border-box;
+}
+.s-idebar {
+  background: #ffffff;
+  width: 230px;
+  height: 1149px;
+  position: relative;
+}

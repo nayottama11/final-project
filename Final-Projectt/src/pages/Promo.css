@@ -1,0 +1,43 @@
+.promo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd; /* Optional border for each card */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  }
+  
+  .promo-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .promo-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .promo-description {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .see-more-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .see-more-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
